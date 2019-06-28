@@ -1,0 +1,65 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+input, button, select, textarea {
+  font-family: "Microsoft YaHei","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+ul {
+  margin: 0;
+  list-style: none;
+}
+html {
+  font-size: 100%;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+body {
+  background-color: #fff;
+  padding-top: 80px;
+  font-size: 14px;
+}
+.container {
+  width: 1180px;
+  margin: 0 auto;
+  margin-right: auto;
+  margin-left: auto;
+  *zoom: 1;
+}
+.clearfix:before, .clearfix:after {
+  display: table;
+  line-height: 0;
+  content: "";
+}
+img {
+  border: 0;
+}
+
+img {
+  width: auto\9;
+  height: auto;
+  vertical-align: middle;
+  border: 0;
+  -ms-interpolation-mode: bicubic;
+}
+h1, h2, h3, h4, h5, h6 {
+  margin: 10px 0;
+  font-family: inherit;
+  font-weight: 700;
+  line-height: 20px;
+  color: inherit;
+  text-rendering: optimizelegibility;
+}
+h1, h2, h3 {
+  line-height: 40px;
+}
+h1 {
+  font-size: 38.5px;
+}
+.topbox-wrap .logo-area h1 {
+  margin: 0;
+}
+a {
+  color: #666;
+  text-decoration: none;
+}

@@ -1,0 +1,217 @@
+.footer {
+    width: 100%;
+    background: #40444a;
+}
+.float-window .mask {
+    display: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 250;
+    background: rgba(0,0,0,.5);
+    opacity: rgba(0,0,0,.5);
+}
+.mask {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: .3;
+    z-index: -1;
+    filter: alpha(opacity=30);
+}
+.float-window .download-float {
+    display: none;
+    content: "";
+    width: 657px;
+    height: 500px;
+    position: fixed;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    background: url(https://umoney.baidu.com/v/static/umoneyweb/common/widget/footer/img/download-float_d4dbb79.png) no-repeat;
+    background-size: 100%;
+    z-index: 300;
+}
+.float-window .download-float .hide-aboutus {
+    content: "";
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.float-window .about-us {
+    display: none;
+    content: "";
+    width: 507px;
+    height: 600px;
+    position: fixed;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    background: url(https://umoney.baidu.com/v/static/umoneyweb/common/widget/footer/img/aboutus_65bc202.png) no-repeat;
+    background-size: 100%;
+    z-index: 300;
+}
+.float-window .about-us .hide-aboutus {
+    content: "";
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.float-window .about-us .wechat {
+    padding-top: 30px;
+    width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    top: 90px;
+}
+.float-window .about-us .wechat div:first-child {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.float-window .about-us .wechat div:last-child {
+    letter-spacing: 1px;
+    font-size: 10px;
+}
+.float-window .about-us .weibo {
+    padding-top: 30px;
+    width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    top: 270px;
+    border-top: 1px dashed #d0cece;
+}
+.float-window .about-us .weibo div:first-child {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.float-window .about-us .weibo div:last-child {
+    letter-spacing: 1px;
+    font-size: 10px;
+}
+.float-window .about-us .weibo a {
+    color: #2f8bdd;
+    border-bottom: 1px solid #2f8bdd;
+}
+.footerMid .contactUs {
+    margin-right: 28px;
+    float: left;
+}
+.footerMid .title {
+    font-size: 16px;
+    color: #c2c2c2;
+    font-weight: 100;
+    margin: 0 0 25px;
+}
+.parent-list div {
+    font-size: 12px;
+    color: #bbbbbc;
+    margin-bottom: 15px;
+}
+
+.media, .media .media {
+    margin-top: 15px;
+}
+.media, .media-body {
+    overflow: hidden;
+    *overflow: visible;
+    zoom: 1;
+}
+
+.media:first-child {
+    margin-top: 0;
+}
+.parent-list div {
+    font-size: 12px;
+    color: #bbbbbc;
+    margin-bottom: 15px;
+}
+.list-contact ul li {
+    text-align: left;
+    color: #909090;
+    font-size: 12px;
+    margin-bottom: 6px;
+}
+.clear {
+    clear: both;
+}
+li {
+    line-height: 20px;
+}
+.parent-list ul li a, .list-bot ul li a, .list-contact ul li a {
+    font-size: 12px;
+    color: #909090;
+}
+.footerMid .download-app {
+    float: left;
+    width: auto;
+    margin-right: 54px;
+}
+.footerMid .download-app .list-bot span:first-child {
+    margin-right: 16px;
+}
+.footerMid .download-app .list-bot span {
+    border: 1px solid #b0b0b0;
+    border-radius: 5px;
+    color: #b4b5b5;
+    padding: 11px 22px;
+    display: block;
+    margin-bottom: 10px;
+}
+.footerMid .credit-objection {
+    float: left;
+    width: auto;
+    margin-right: 94px;
+    cursor: pointer;
+}
+.footerMid .credit-objection .title a {
+    color: inherit;
+}
+.footerMid .qrcode img {
+    width: 114px;
+    height: 114px;
+}
+.bot-footer {
+    margin: 60px auto 0;
+    text-align: center;
+    font-size: 12px;
+    color: #909090;
+}
+.footerMid, .bot-footer {
+    width: 1180px;
+}
+.footerMid .qrcode img:nth-child(1) {
+    margin-right: 39px;
+}
+.clearfix {
+    zoom: 1;
+}
+.footerMid {
+    height: 110px;
+    width: 1054px;
+    margin: 0 auto;
+    padding-top: 45px;
+    padding-left: 35px;
+}
+.fl-div.parent {
+    width: auto;
+    margin: 0;
+    float: left;
+    margin-right: 58px;
+}

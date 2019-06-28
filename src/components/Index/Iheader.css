@@ -1,0 +1,156 @@
+.topbox-wrap {
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 200;
+}
+.topbox {
+    width: 100%;
+    height: 80px;
+    background-color: #FFF;
+    border: 1px solid #cdcdcd;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+.topnav {
+    height: 70px;
+    position: relative;
+}
+.topbox .container {
+    position: relative;
+}
+.topbox-wrap .logo-area {
+    float: left;
+    margin: 15px 0 0;
+}
+
+.topbox-wrap .logo-area a {
+    width: 186px;
+    height: 60px;
+    display: block;
+    overflow: hidden;
+    background: url(https://umoney.baidu.com/v/static/umoneyweb/common/widget/header/img/header-logo_f498042.png) no-repeat;
+    background-size: 100%;
+    text-indent: -999px;
+}
+.topbox-wrap .search-box {
+    height: 36px;
+    float: left;
+    margin: 25px 0 0 24px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.topbox-wrap .search-box #search-input {
+    height: 36px;
+    border: 1px solid #eee;
+    border-radius: 0;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    border-right: 0;
+    margin: 0;
+    padding: 0;
+    width: 300px;
+    font-size: 14px;
+    padding-left: 30px;
+    padding-top: 6px;
+    box-sizing: border-box;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAABZklEQVQ4y9WUMShFURjHn2ShTMqCsiij2UImgzJQGCzKJDIpu7IZZLNJ6k3OOd537u2p55xzy0vX8AoDGayUCYm86388ysA5hxjera9unf/3+3/fd79zc7m6feK40sKiZJBLvcgjNbVXVL2/AhGVW7lUm4hnTvoKcQCoYaRfmFQXgsxIMEyItBnJlVqiHkvTtOnjrFAwPYCv4TwTpKaDgKhqA0nXu7Hq/FZDegXVPohi0uWEsf1yO9yrqGzUpcuyrAG6Y2vuqc5Mwv3WJvg6YZFa4KTO3UBSS3A9ChoNJcPQP7pdSc9BdBYCZNKMw/zOB+x/m2Gp1Bb28dShU5TPZ412XSDcdunsgtt2MfN5fyu1m1HFx1n+eulLHTi7tPF5R33tzDCpnzCCU/supBkQUg/BaAuge1R3Y02hmQi+MTxW3QCu28Hbm/EeJ2hz1lYG2M6Pob7l/leoHcmfQTHTVUaqr35+zK/JIhCfoUm+AgAAAABJRU5ErkJggg==);
+    background-position: 5px 7px;
+    background-repeat: no-repeat;
+}
+.topbox-wrap .search-box #search-input input {
+    height: 22px;
+    line-height: 22px;
+    border: 0;
+    outline: 0;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    box-shadow: none;
+}
+.topbox-wrap .search-box #search-button {
+    width: 72px;
+    margin: 0;
+    height: 36px;
+    background: #397BE6;
+    border: 0;
+    color: #fff;
+    position: relative;
+    text-align: center;
+    line-height: 36px;
+    cursor: pointer;
+}
+.topbox-wrap .search-box .close {
+    width: 20px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 80px;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAABY0lEQVQ4y7VVvU7DMBDOAxQGCuIBOnZkYeoES6eupbxOovwpNJaCeAVYaN+HgQEJIRWJH1W0agt8F52RY9mpUwlLn2Ld+b6zfd85nmcZQRAcxXE8BDJgwqD5EL625zqEEPsIGgNr4MeCdRRFeVEUrVqyMAx7WPxUQ6TjAegYyZIkOUPWTQOyEoiZYSPdCpnv+8dwvDUlU/BCHH+EMAgtK5Ff4/thCH4nH3/VmLwkw2QPhoXmnLLvFJgr9jnZeBMTLdGCuOjuLi1VHMhCYf5FoDknGphUAPvIY4mYLnuFb58JzqlovLM++0wxV7TgrqaCS0mkKGFZs/72XwiFy5EJDkfOKeuFa1FkhW1FoT6XvavL5t4im880TU/YNzXKho8xNoj3Rhev6tM7q6yw2nrUPru2HpFXWo/vqgvn6w6E36oSKoOeIuCxAdmz7J6tD+yWp8ztgVUHqnlo+gWQzLIsO7DF/QLGS/9N0jq2bgAAAABJRU5ErkJggg==);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 16px 16px;
+    border-radius: 18px;
+    /* display: none; */
+}
+.close {
+    float: right;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 20px;
+    color: #000;
+    text-shadow: 0 1px 0 #fff;
+    opacity: .2;
+    filter: alpha(opacity=20);
+}
+.topbox .container .top-guide {
+    line-height: 80px;
+    position: absolute;
+    right: 0;
+    font-size: 20px;
+}
+.topbox .container .top-guide a:first-child {
+    padding-right: 26px;
+    border-right: 1px solid #52525b;
+}
+.topbox .container .top-guide a:nth-child(2) {
+    padding: 0 26px;
+    border-right: 1px solid #52525b;
+}
+.topbox .container .top-guide a:nth-last-child(2) {
+    padding: 0 26px;
+}
+.topbox .container .top-guide a:last-child {
+    padding-left: 26px;
+    border-left: 1px solid #52525b;
+}
+.topbox-wrap .nav {
+    position: absolute;
+    right: 110px;
+    width: 200px;
+    height: 80px;
+    margin: 0;
+    line-height: 80px;
+    float: right;
+    margin-right: 110px;
+}
+
+.nav-pills {
+    display: none;
+}
+.topbox-wrap .search-result-container {
+    display: none;
+    position: fixed;
+    z-index: 99;
+    width: 100vw;
+    height: 100vh;
+    background: #fff;
+}
+.top-guide a:hover{
+    color: #397BE6;
+}

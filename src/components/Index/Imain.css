@@ -1,0 +1,192 @@
+.banner-index {
+    display: block;
+    width: 100%;
+    height: 590px;
+    background: url(https://umoney.baidu.com/v/static/umoneyweb/home/img/banner-new_a6cbd0b.png) no-repeat center center;
+}
+
+.download-index {
+    position: relative;
+    margin-top: 374px;
+}
+.download-index .download-guide {
+    display: none;
+    position: absolute;
+    content: "";
+    width: 642px;
+    height: 452px;
+    left: 270px;
+    top: -255px;
+    background: url(https://umoney.baidu.com/v/static/umoneyweb/home/img/download-qrcode_e56e9bc.png) no-repeat;
+}
+.download-index .qrcode {
+    position: absolute;
+    left: 30px;
+    top: -20px;
+    width: 132px;
+    height: 132px;
+}
+.download-index .qrcode-desc {
+    color: #fff;
+    font-size: 21px;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    display: block;
+}
+.feature-part {
+    display: block;
+    margin: 70px auto 100px;
+    width: 100%;
+    height: 362px;
+    background: url(https://umoney.baidu.com/v/static/umoneyweb/home/img/feature_12ded5f.jpg) no-repeat center center;
+}
+.process-part {
+    display: block;
+    width: 100%;
+    height: 742px;
+    background: url(https://umoney.baidu.com/v/static/umoneyweb/home/img/process_b427271.jpg) no-repeat center center;
+}
+.normal-question {
+    margin-top: 60px;
+}
+.normal-question .title {
+    text-align: center;
+    font-size: 36px;
+    color: #52525a;
+}
+.normal-question .underline {
+    content: "";
+    width: 70px;
+    height: 3px;
+    margin: 28px auto 0;
+    background-color: #52525a;
+}
+.normal-question .question-part {
+    width: 958px;
+    margin: 0 auto;
+}
+.normal-question .question-part .questions {
+    font-size: 22px;
+    font-weight: 700;
+    color: #3e3e47;
+}
+.normal-question .question-part .answers {
+    padding: 10px 0 40px 30px;
+    font-size: 15px;
+    color: #b5b5bf;
+}
+.fontColor {
+    font-weight: 600;
+    color: red;
+}
+.normal-question .more-questions {
+    width: 958px;
+    margin: 0 auto;
+    font-size: 20px;
+    color: #147bd8;
+    padding-bottom: 62px;
+    border-bottom: 1px dashed #babac4;
+}
+.normal-question .more-questions a {
+    color: #147bd8;
+    padding-left: 30px;
+}
+.normal-question .more-questions a:after {
+    content: url(https://umoney.baidu.com/v/static/umoneyweb/home/img/arrow_c304f7d.png);
+    margin-left: 4px;
+}
+.banner-nav {
+    padding-left: 140px;
+}
+.margin-list-box {
+    margin-left: 20px;
+}
+.credit-banner, .margin-list-left .logo, .logo-phone {
+    background-image: url(https://umoney.baidu.com/v/static/umoneyweb/home/pkg/home_sync_css_0_z_fdaacfa.png);
+}
+.margin-list-left .logo {
+    background-position: -1128px -223px;
+}
+
+.margin-list-left .logo {
+    float: left;
+    width: 72px;
+    height: 72px;
+    background-repeat: no-repeat;
+}
+.contain-msg {
+    float: left;
+    margin-left: 20px;
+}
+.con-title {
+    padding: 10px 0 20px;
+    font-size: 20px;
+    font-weight: 100;
+    line-height: 0;
+    color: #313133;
+}
+.header-backmoney li {
+    float: left;
+    margin-right: 10px;
+    font-size: 18px;
+}
+.header-backmoney li:last-child {
+    margin-right: 0;
+}
+li {
+    line-height: 20px;
+}
+.header-backmoney li a {
+    color: #4d7eff;
+    width: 378px;
+}
+.margin-list-left, .margin-list-right {
+    float: left;
+    width: 300px;
+    padding: 74px 0;
+}
+.logo-service {
+    float: left;
+    width: 72px;
+    height: 72px;
+    background: url(https://umoney.baidu.com/v/static/umoneyweb/home/img/Rectangle_cf2c0f5.png) no-repeat;
+    background-size: cover;
+}
+.credit-banner, .margin-list-left .logo, .logo-phone {
+    background-image: url(https://umoney.baidu.com/v/static/umoneyweb/home/pkg/home_sync_css_0_z_fdaacfa.png);
+}
+.logo-phone {
+    background-position: -1128px -298px;
+}
+.logo-phone {
+    float: left;
+    width: 72px;
+    height: 72px;
+    background-repeat: no-repeat;
+}
+.phone-number {
+    color: #313131;
+    font-size: 20px;
+}
+p {
+    margin: 0 0 10px;
+}
+.phone-word {
+    margin-left: 16px;
+    font-size: 14px;
+    color: #999;
+}
+.credit-banner, .margin-list-left .logo, .logo-phone {
+    background-image: url(https://umoney.baidu.com/v/static/umoneyweb/home/pkg/home_sync_css_0_z_fdaacfa.png);
+}
+
+.credit-banner {
+    background-position: 0px 0px;
+}
+.credit-banner {
+    width: 1120px;
+    height: 244px;
+    margin: 40px auto;
+    margin-top: 270px;
+    background-repeat: no-repeat;
+}

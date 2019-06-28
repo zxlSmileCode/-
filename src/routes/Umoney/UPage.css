@@ -1,0 +1,269 @@
+body {
+    background-color: #fff;
+    padding-top: 80px;
+    font-family: "Microsoft Yahei",å¾®è½¯é›…é»‘,Arial,PingFang,Helvetica,Tahoma,"Hiragino Sans GB",STHeiti,"å®‹ä½“";
+}
+label, input, button, select, textarea {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+.topbox-wrap {
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 200;
+}
+.topbox {
+    width: 100%;
+    height: 80px;
+    background-color: #FFF;
+    border: 1px solid #cdcdcd;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.topbox .container {
+    margin: 0 auto;
+    position: relative;
+}
+.container {
+    width: 1180px;
+    margin-right: auto;
+    margin-left: auto;
+    *zoom: 1;
+}
+.container:before, .container:after {
+    display: table;
+    line-height: 0;
+    content: "";
+}
+.topnav {
+    height: 70px;
+    position: relative;
+}
+.topbox-wrap .logo-area {
+    float: left;
+    margin: 15px 0 0;
+}
+.topbox-wrap .logo-area h1 {
+    margin: 0;
+}
+.topbox-wrap .logo-area a {
+    display: block;
+    overflow: hidden;
+    width: 218px;
+    height: 70px;
+    background: url(https://umoney.baidu.com/static/edu/pc/widget/header/img/header-logo_f498042.png?__sprite) no-repeat left top;
+    text-indent: -999px;
+}
+.block-info {
+    margin-top: 50px;
+    margin-left: 25px;
+    height: 47px;
+    font-size: 20px;
+    line-height: 47px;
+    color: #313133;
+}
+.block-wrap {
+    padding-bottom: 40px;
+}
+form {
+    margin-top: 40px;
+}
+.con-title {
+    margin-top: 40px;
+    margin-bottom: 25px;
+    height: 20px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #313133;
+    text-align: center;
+}
+.form-horizontal .control-group {
+    height: 37px;
+    margin-bottom: 20px;
+    *zoom: 1;
+}
+.form-horizontal .control-group:before, .form-horizontal .control-group:after {
+    display: table;
+    line-height: 0;
+    content: "";
+}
+.block-wrap .control-group .control-label {
+    width: 429px;
+}
+
+.verification-form .control-label {
+    cursor: context-menu;
+    width: 250px;
+    height: 37px;
+    margin-right: -250px;
+    margin-bottom: 0;
+    padding-top: 0;
+    font-size: 14px;
+    line-height: 37px;
+    text-align: right;
+    color: #676767;
+    font-weight: 400;
+}
+.form-horizontal .control-group {
+    margin-bottom: 20px;
+    *zoom: 1;
+}
+.block-wrap .control-group .control-label {
+    width: 429px;
+}
+.verification-form .control-label {
+    cursor: context-menu;
+    width: 250px;
+    height: 37px;
+    margin-right: -250px;
+    margin-bottom: 0;
+    padding-top: 0;
+    font-size: 14px;
+    line-height: 37px;
+    text-align: right;
+    color: #676767;
+    font-weight: 400;
+}
+.form-horizontal .control-label {
+    float: left;
+    width: 160px;
+    padding-top: 5px;
+    text-align: right;
+    cursor: context-menu;
+    width: 240px;
+    height: 36px;
+    line-height: 36px;
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    text-align: right;
+    color: #404040;
+    font-weight: 400;
+}
+.block-wrap .control-group .controls {
+    margin-left: 447px;
+}
+
+.verification-form .controls {
+    position: relative;
+    margin: 0;
+    margin-left: 268px;
+    line-height: 35px;
+}
+.verification-form input.default {
+    float: left;
+}
+.verification-form .msg {
+    color: #399ae9;
+    padding-left: 20px;
+    margin-left: 15px;
+    margin-bottom: 0;
+    font-size: 12px;
+    float: left;
+}
+.form-horizontal .control-group {
+    margin-bottom: 20px;
+    *zoom: 1;
+}
+.block-wrap .control-group .control-label {
+    width: 429px;
+}
+.con-title-margin {
+    margin-top: 60px;
+}
+.form-horizontal .control-margin-0 {
+    margin-bottom: 0;
+}
+.form-horizontal .control-margin-10 {
+    margin-bottom: 10px;
+}
+.block-wrap .control-group .controls {
+    margin-left: 447px;
+}
+textarea, input[type=text], input[type=password], input[type=datetime], input[type=datetime-local], input[type=date], input[type=month], input[type=time], input[type=week], input[type=number], input[type=email], input[type=url], input[type=search], input[type=tel], input[type=color], .uneditable-input {
+    background-color: #fff;
+    border: 1px solid #c1c1c1;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -moz-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border linear .2s,box-shadow linear .2s;
+    -moz-transition: border linear .2s,box-shadow linear .2s;
+    -o-transition: border linear .2s,box-shadow linear .2s;
+    transition: border linear .2s,box-shadow linear .2s;
+}
+button.btn, input[type=submit].btn {
+    *padding-top: 3px;
+    *padding-bottom: 3px;
+}
+.phoneCodeBtn {
+    float: left;
+    margin-left: 10px;
+}
+.width-100 {
+    width: 100px;
+}
+.btn-blue, .btn-blue-large {
+    background-color: #399ffd;
+}
+select, textarea, input[type=datetime], input[type=text], input[type=password], input[type=datetime-local], input[type=date], input[type=month], input[type=time], input[type=week], input[type=number], input[type=email], input[type=url], input[type=search], input[type=tel], input[type=color], .uneditable-input {
+    display: inline-block;
+    height: 34px;
+    padding: 0 10px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 34px;
+    color: #666;
+    vertical-align: middle;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.form-horizontal .control-notice {
+    color: #999;
+    font-size: 12px;
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+
+.btn-red, .btn-red-large, .btn-blue, .btn-blue-large {
+    color: #fff;
+    text-shadow: 0 0 1px rgba(0,0,0,.1);
+    border: 0;
+}
+.btn-red, .btn-blue {
+    width: 100px;
+    height: 36px;
+    line-height: 36px;
+    font-size: 14px;
+}
+.btn {
+    display: inline-block;
+    border: 1px solid #c1c1c1;
+    padding: 0;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    text-align: center;
+    cursor: pointer;
+}
+.width-302 {
+    width: 302px;
+}
+.footer{
+    width: 100%;
+    background: #40444a;
+}
+input:focus{
+    border: 1px solid royalblue;
+}
+.verification-form .error input.default {
+    border: 1px solid #FF445D;
+}
